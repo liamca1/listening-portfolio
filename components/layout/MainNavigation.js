@@ -7,8 +7,8 @@ const Button = dynamic(() => import("../layout/ButtonToggle"), {
 
 function MainNavigation() {
   return (
-    <div class="flex flex-wrap justify-center items-baseline space-y-1 h-full w-full font-sm pt-6 lg:pt-12 p-2 ">
-      <div class="item w-1/4 h-auto order-1">
+    <div className="flex flex-wrap justify-center items-baseline space-y-1 h-full w-full font-sm pt-6 lg:pt-12 p-2 ">
+      <div className="item w-1/4 h-auto order-1">
         <Link
           // className="border border-yellow-300 border-t-1 border-l-1 border-r-1 border-b-1"
           href="/"
@@ -16,7 +16,7 @@ function MainNavigation() {
           Liam Carroll
         </Link>
       </div>
-      <div class="item w-1/4 h-auto order-2 ">
+      <div className="item w-1/4 h-auto order-2 ">
         <Link
           // className="border border-yellow-300 border-t-1 border-l-1 border-r-1 border-b-1"
           href="/work"
@@ -24,12 +24,12 @@ function MainNavigation() {
           Archive
         </Link>
       </div>
-      <div class="item w-1/4 h-auto order-3 ">
+      <div className="item w-1/4 h-auto order-3 ">
         <Link className="font text-right " href="/contact">
           Contact
         </Link>
       </div>
-      <div class="item w-1/4 h-auto order-4 place-self-center">
+      <div className="item w-1/4 h-auto order-4 place-self-center">
         <Button />
       </div>
     </div>

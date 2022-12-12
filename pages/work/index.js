@@ -1,10 +1,8 @@
 // our-domain.com/work
 import { fetcher } from "../../lib/api";
 
-import Link from "next/link";
 import { Fragment, useState } from "react";
 import useSWR from "swr";
-import Image from "next/image";
 import ArchiveItem from "../../components/archive/ArchiveItem";
 
 function WorkPage({ posts }) {

@@ -87,7 +87,7 @@ export default WorkPage;
 
 export async function getStaticProps() {
   const postsResponse = await fetcher(
-    `${process.env.NEXT_PUBLIC_STRAPI_URL}/posts?pagination[page]=1&pagination[pageSize]=5`
+    `${process.env.NEXT_PUBLIC_STRAPI_URL}/posts?pagination[page]=1&pagination[pageSize]=1`
   );
   return {
     props: {
